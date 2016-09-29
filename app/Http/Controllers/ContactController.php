@@ -40,14 +40,17 @@ class ContactController extends Controller
         $res['status'] = 'VALIDATION_ERROR';
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
-        /*
         $mail_sent = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
-          $m->from('dosgyt@dosgyt.com', '2G&T Server');
+          $m->from('contacto@gameturfmexico.com', 'GameTurf México | Server');
           $m->replyTo($contact['email'], $contact['name']);
-          $m->to('contacto@dosgyt.com', 'Contacto 2G&T');
-          $m->subject('[Contacto] '.$contact['name'].' | 2G&T');
+          $m->to('contacto@gameturfmexico.com', 'GameTurf México | Contacto');
+          $m->cc('alejandrovmz@gameturfmexico.com', 'GameTurf México | Alejandro Vázquez');
+          $m->cc('berthavmz@gameturfmexico.com', 'GameTurf México | Bertha Vázquez');
+          $m->cc('carlosgv@gameturfmexico.com', 'GameTurf México | Carlos González');
+          $m->cc('ksanchez@gameturfmexico.com', 'GameTurf México | Karla Sánchez');
+
+          $m->subject('[Contacto] '.$contact['name'].' | GameTurf México');
         });
-        */
 
         if ($mail_sent = true) {
           $res['status'] = 'SUCCESS';
