@@ -169,7 +169,7 @@
               <div class="row">
                 <section class="10u -1u 12u(narrower) 12u(mobilep)">
                   <h3>Cotizador express</h3>
-                  <form id="contact-form" action="contact.php" method="POST">
+                  {!! Form::open(['route' => 'site.contact.send', 'id' => 'contact-form', 'class' => 'contact-form']) !!}
                     <div class="row 50%">
                       <div class="6u 12u(mobilep)">
                         <input type="text" name="contact[name]" id="contact-name" placeholder="Nombre" />
@@ -198,10 +198,10 @@
                     </div>
                     <div class="12u 12u(mobilep)">
                       <ul class="actions pull-right">
-                        <li><input type="submit" class="button" value="Enviar" /></li>
+                        <li><button class="button">Enviar</button></li>
                       </ul>
                     </div>
-                  </form>
+                  {!! Form::close() !!}
                 </section>
               </div>
             </div>

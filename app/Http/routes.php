@@ -20,4 +20,17 @@ Route::group(['as' => 'site.'], function(){
       'uses'  => 'HomeController@index'
     ]);
   });
+
+  Route::group(['prefix' => 'contact', 'as' => 'contact.'], function(){
+    
+    Route::get('/', [
+      'as'      => 'index',
+      'uses'    => 'ContactController@index'
+    ]);
+
+    Route::post('/send', [
+      'as'      => 'send',
+      'uses'    => 'ContactController@send'
+    ]);
+  });
 });
