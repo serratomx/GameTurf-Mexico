@@ -13,4 +13,20 @@ class HomeController extends Controller
   public function index() {
     return view('site.home.index');
   }
+
+  public function advantages() {
+    return view('site.home.advantages');
+  }
+
+  public function gallery() {
+    return view('site.home.gallery');
+  }
+
+  public function downloads() {
+    return view('site.home.downloads');
+  }
+
+  public function contact() {
+    return view('site.home.contact');
+  }
 }

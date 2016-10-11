@@ -27,7 +27,6 @@ class ContactController extends Controller
 
       $validation = Validator::make($contact, [
         'name'          => 'required|max:60',
-        'item_type'     => 'required|max:120',
         'telephone'     => 'required|regex:/^[0-9]{10,10}$/',
         'use'           => 'required|max:250',
         'company'       => 'required|max:60',

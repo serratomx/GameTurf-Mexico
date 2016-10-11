@@ -20,7 +20,6 @@
       <p><b>Teléfono:</b> {{ $contact['telephone'] }}</p>
       <p><b>Empresa:</b> {{ $contact['company'] }}</p>
       <p><b>Correo electrónico:</b> <a href="mailto:{{ $contact['email'] }}" style="color:#6EAD3B;text-decoration:none;">{{ $contact['email'] }}</a></p>
-      <p><b>Tipo de producto:</b> {{ $contact['item_type'] }}</p>
       <p><b>Uso:</b> {{ $contact['use'] }}</p>
       <p><b>Metros cuadrados:</b> {{ $contact['square-meter'] }}</p>
       <p><b>Su mensaje:</b> {{ $contact['message'] }}</p>

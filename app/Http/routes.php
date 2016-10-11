@@ -19,6 +19,26 @@ Route::group(['as' => 'site.'], function(){
       'as'    => 'index',
       'uses'  => 'HomeController@index'
     ]);
+
+    Route::get('/ventajas', [
+      'as'      => 'advantages',
+      'uses'    => 'HomeController@advantages'
+    ]);
+
+    Route::get('/galeria', [
+      'as'      => 'gallery',
+      'uses'    => 'HomeController@gallery'
+    ]);
+
+    Route::get('/descargas', [
+      'as'      => 'downloads',
+      'uses'    => 'HomeController@downloads'
+    ]);
+
+    Route::get('/contacto', [
+      'as'      => 'contact',
+      'uses'    => 'HomeController@contact'
+    ]);
   });
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function(){

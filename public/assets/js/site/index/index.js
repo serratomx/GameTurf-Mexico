@@ -9,10 +9,6 @@ $(document).on('ready', function(){
         required: true,
         maxlength: 60
       },
-      "contact[item_type]": {
-        required: true,
-        maxlength: 120
-      },
       "contact[telephone]": {
         required: true,
         regex: /^[0-9]{10,10}$/
@@ -42,9 +38,6 @@ $(document).on('ready', function(){
     messages: {
       "contact[name]": {
         required: "Por favor, introduzca su nombre."
-      },
-      "contact[item_type]": {
-        required: "Por favor, introduzca el tipo de producto.",
       },
       "contact[telephone]": {
         required: "Por favor, introduzca su número de teléfono o celular.",
