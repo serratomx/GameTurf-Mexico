@@ -1861,7 +1861,7 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3436,7 +3436,8 @@
 	margin-top: 16px;
 }
 
-.app-advantage .row > * {
+.app-advantage .row > *,
+.app-downloads .row > * {
 	padding-top: 0 !important;
 }
 
@@ -3477,6 +3478,78 @@
 	margin-bottom: .75em;
 }
 
+.app-downloads article.intro > header > h1.title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.app-downloads article.intro > .content > p {
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 45px;
+}
+
+.app-downloads .downloads-container .download-item {
+	text-align: center;
+	padding: 30px;
+	min-height: 256px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+.app-downloads .downloads-container .download-item:hover {
+	cursor: pointer;
+	background-color: #EFEFEF;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+
+.app-downloads .downloads-container .download-item .icon-file {
+	display: inline-block;
+	width: 95.4px;
+	height: 119.7px;
+}
+
+.app-downloads .downloads-container .download-item p {
+	margin-top: 8px;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.app-our-clients {
+	background-color: #FFFFFF;
+}
+
+.app-our-clients article.intro > .header {
+	padding: 30px 0 15px 0;
+}
+
+.app-our-clients article.intro > .header h2.title {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.app-our-clients .carousel-container {
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	padding: 45px 0 15px 0;
+}
+
+.app-our-clients .carousel-container .lightslider .item {
+	width: 240px;
+	height: 180px;
+	background-color: #CCC;
+}
+
 @media screen and (max-width: 480px) { 
 
 .app-sponsors .sponsors-container .sponsor {
@@ -3493,6 +3566,22 @@
 	width: 92%;
 }
 
+}
+
+/* Generics */
+
+.icon-file {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.icon-file-0 {
+	background-image: url("../img/icon-file-0.png");
+}
+
+.icon-file-1 {
+	background-image: url("../img/icon-file-1.png");
 }
 
 /* Helpers */

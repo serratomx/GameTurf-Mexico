@@ -12,6 +12,7 @@
   <!--[if lte IE 8]><script src="{!! asset('assets/js/ie/html5shiv.js') !!}"></script><![endif]-->
   <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/css/bootstrap.min.css?v='.time()) !!}">
   <link rel="stylesheet" href="{!! asset('public/assets/css/jquery.loading.css?v='.time()) !!}" />
+  <link rel="stylesheet" href="{!! asset('public/assets/css/lightslider.css?v='.time()) !!}" />
   <link rel="stylesheet" href="{!! asset('public/assets/css/main.css?v='.time()) !!}" />
   <!--[if lte IE 8]><link rel="stylesheet" href="{!! asset('public/assets/css/ie8.css') !!}" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="{!! asset('public/assets/css/ie9.css') !!}" /><![endif]-->
@@ -28,7 +29,7 @@
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li class="current"><a href="{!! URL::to('/') !!}">INICIO</a></li>
+          <li class="{!! (!Route::is('site.home.index')) ?: 'current' !!}"><a href="{!! URL::to('/') !!}">INICIO</a></li>
           <!--
           <li>
             <a href="#">Dropdown</a>
@@ -49,8 +50,8 @@
               <li><a href="#">Veroeros feugiat</a></li>
             </ul>
           </li>-->
-          <li><a href="{!! URL::to('/ventajas') !!}">VENTAJAS</a></li>
-          <li>
+          <li class="{!! (!Route::is('site.home.advantages')) ?: 'current' !!}"><a href="{!! URL::to('/ventajas') !!}">VENTAJAS</a></li>
+          <li class="{!! (!Route::is('site.home.productsAndServices')) ?: 'current' !!}">
             <a href="#">PRODUCTOS Y SERVICIOS</a>
             <ul>
               <li><a href="#">CONSTRUCCIÓN Y DISEÑO</a></li>
@@ -61,9 +62,9 @@
               <li><a href="#">PRODUCTOS COMPLEMENTARIOS</a></li>
             </ul>
           </li>
-          <li><a href="{!! URL::to('/galeria') !!}">GALERÍA</a></li>
-          <li><a href="{!! URL::to('/descargas') !!}">DESCARGAS</a></li>
-          <li><a href="{!! URL::to('/contacto') !!}">CONTACTO / COTIZADOR</a></li>
+          <li class="{!! (!Route::is('site.home.gallery')) ?: 'current' !!}"><a href="{!! URL::to('/galeria') !!}">GALERÍA</a></li>
+          <li class="{!! (!Route::is('site.home.downloads')) ?: 'current' !!}"><a href="{!! URL::to('/descargas') !!}">DESCARGAS</a></li>
+          <li class="{!! (!Route::is('site.home.contact')) ?: 'current' !!}"><a href="{!! URL::to('/contacto') !!}">CONTACTO / COTIZADOR</a></li>
         </ul>
       </nav>
     </div>
@@ -164,9 +165,10 @@
   <script src="{!! asset('public/assets/js/jquery.dropotron.min.js?v='.time()) !!}"></script>
   <script src="{!! asset('public/assets/js/skel.min.js?v='.time()) !!}"></script>
   <script src="{!! asset('public/assets/js/util.js?v='.time()) !!}"></script>
+  <script src="{!! asset('public/assets/js/lightslider.js?v='.time()) !!}"></script>
   <!--[if lte IE 8]><script src="{!! asset('public/assets/js/ie/respond.min.js?v='.time()) !!}"></script><![endif]-->
   <script src="{!! asset('public/assets/js/main.js?v='.time()) !!}"></script>
-  <script src="{!! asset('public/assets/js/site/index/index.js?v='.time()) !!}"></script>
+  <script src="{!! asset('public/assets/js/site/home/index.js?v='.time()) !!}"></script>
   @yield('scripts')
 <!-- [END JavaScript Files] -->
 </body>

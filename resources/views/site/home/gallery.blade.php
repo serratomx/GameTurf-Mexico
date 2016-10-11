@@ -17,17 +17,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="{!! asset('public/assets/img/img-carousel-1.png') !!}" alt="...">
-              <div class="carousel-caption">
-              </div>
-            </div>
-            <div class="item">
               <img src="{!! asset('public/assets/img/img-carousel-2.png') !!}" alt="...">
-              <div class="carousel-caption">
-              </div>
-            </div>
-            <div class="item">
-              <img src="{!! asset('public/assets/img/img-carousel-3.png') !!}" alt="...">
               <div class="carousel-caption">
               </div>
             </div>
