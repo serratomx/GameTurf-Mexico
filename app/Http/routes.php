@@ -25,6 +25,11 @@ Route::group(['as' => 'site.'], function(){
       'uses'    => 'HomeController@advantages'
     ]);
 
+    Route::get('/servicios', [
+      'as'      => 'services',
+      'uses'    => 'HomeController@services'
+    ]);
+
     Route::get('/galeria', [
       'as'      => 'gallery',
       'uses'    => 'HomeController@gallery'

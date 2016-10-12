@@ -3484,6 +3484,64 @@
 	margin-bottom: 5px;
 }
 
+.app-services {
+	background-color: #fff;
+	margin-bottom: -5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.app-services .questions-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.app-services .questions-container article > header > h3.title {
+	font-size: 18px;
+	font-weight: 24px;
+	font-weight: bold;
+}
+
+.app-services .questions-container article > .content > p {
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: lighter;
+	margin-bottom: 25px;
+}
+
+.app-services .services-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.app-services .services-container > .item > header > h2.title {
+	color: #474747;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+
+.app-services .services-container > .item > header > h2.title b {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.app-services .services-container > .item > .content {
+	margin-bottom: 45px;
+}
+
+.app-services .services-container > .item > .content p {
+	line-height: 24px;
+  font-size: 18px;
+}
+
+.app-services .services-container > .item > .content > .thumbnail {
+	width: 100%;
+	padding: 0;
+	border: none;
+}
+
 .app-downloads article.intro > .content > p {
 	font-size: 20px;
 	font-weight: lighter;
@@ -3586,6 +3644,11 @@
 
 /* Helpers */
 
+.no-side-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -3595,6 +3658,23 @@
 }
 
 /* Parches */
+
+.btn-green {
+	background-color: #3B6E46;
+	color: #fff;
+}
+
+.btn-green:hover,
+.btn-greem:focus,
+.btn-green:active {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	background-color: #4F7F57;
+	color: #fff;
+}
 
 .carousel-control {
 	background: none !important;

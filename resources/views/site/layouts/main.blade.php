@@ -52,7 +52,7 @@
           </li>-->
           <li class="{!! (!Route::is('site.home.advantages')) ?: 'current' !!}"><a href="{!! URL::to('/ventajas') !!}">VENTAJAS</a></li>
           <li class="{!! (!Route::is('site.home.productsAndServices')) ?: 'current' !!}">
-            <a href="#">PRODUCTOS Y SERVICIOS</a>
+            <a href="{!! URL::to('/servicios') !!}">PRODUCTOS Y SERVICIOS</a>
             <ul>
               <li><a href="#">CONSTRUCCIÓN Y DISEÑO</a></li>
               <li><a href="#">PASTO SINTÉTICO DEPORTIVO</a></li>
@@ -139,7 +139,7 @@
                   </div>
                 <div class="primary-email 12u">
                   <div class="text-center">
-                    <a href="mailto:contacto@gameturfmexico.com">contacto@gameturfmexico.com / Carlos Septién García #16 Col. Cimatario</a>
+                    <span><a href="mailto:contacto@gameturfmexico.com">contacto@gameturfmexico.com</a>/ Carlos Septién García #16 Col. Cimatario</span>
                   </div>
                 </div>
               </div>

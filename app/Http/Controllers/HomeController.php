@@ -18,6 +18,10 @@ class HomeController extends Controller
     return view('site.home.advantages');
   }
 
+  public function services() {
+    return view('site.home.services');
+  }
+
   public function gallery() {
     return view('site.home.gallery');
   }
