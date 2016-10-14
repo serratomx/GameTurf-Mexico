@@ -36,7 +36,7 @@
             <h2 class="title">Instalación sencilla y rápida</h2>
           </header>
           <div class="content">
-            <p>Para instalar un pasto sintético decorativo y/o residencial, solo se necesita que el suelo esté nivelado y preparado para un drenaje apropiado. En GameTurf, desarrollamos la tecnología de bajo peso en los r ollos de pasto, ésto para facilitar el transporte y la instalación del mismo.En casos de instalaciones de pasto sintético en campos deportivos, se deberá llevar a cabo un estudio por nuestros profesionales en el área, para realizar un proyecto que se encuentre dentro de los estándares de calidad internacionales, y ello brinde a los usuarios una experiencia de juego inigualable.</p>
+            <p>Para instalar un pasto sintético decorativo y/o residencial, solo se necesita que el suelo esté nivelado y preparado para un drenaje apropiado. En GameTurf, desarrollamos la tecnología de bajo peso en los rollos de pasto, ésto para facilitar el transporte y la instalación del mismo.En casos de instalaciones de pasto sintético en campos deportivos, se deberá llevar a cabo un estudio por nuestros profesionales en el área, para realizar un proyecto que se encuentre dentro de los estándares de calidad internacionales, y ello brinde a los usuarios una experiencia de juego inigualable.</p>
           </div>
         </article>
         <article>

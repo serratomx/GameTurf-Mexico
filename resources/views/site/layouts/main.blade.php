@@ -139,7 +139,8 @@
                   </div>
                 <div class="primary-email 12u">
                   <div class="text-center">
-                    <span><a href="mailto:contacto@gameturfmexico.com">contacto@gameturfmexico.com</a>/ Carlos Septién García #16 Col. Cimatario</span>
+                    <p><a href="mailto:contacto@gameturfmexico.com">contacto@gameturfmexico.com</a>/ Carlos Septién García #16 Col. Cimatario</p>
+                    <p>Quéretaro , Quéretaro C.P 76030</p>
                   </div>
                 </div>
               </div>
