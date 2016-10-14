@@ -3536,7 +3536,7 @@
   font-size: 18px;
 }
 
-.app-services .services-container > .item > .content > .thumbnail {
+.app-services .services-container > .item > .content .thumbnail {
 	width: 100%;
 	padding: 0;
 	border: none;
