@@ -30,26 +30,6 @@
       <nav id="nav">
         <ul>
           <li class="{!! (!Route::is('site.home.index')) ?: 'current' !!}"><a href="{!! URL::to('/') !!}">INICIO</a></li>
-          <!--
-          <li>
-            <a href="#">Dropdown</a>
-            <ul>
-              <li><a href="#">Lorem dolor</a></li>
-              <li><a href="#">Magna phasellus</a></li>
-              <li><a href="#">Etiam sed tempus</a></li>
-              <li>
-                <a href="#">Submenu</a>
-                <ul>
-                  <li><a href="#">Lorem dolor</a></li>
-                  <li><a href="#">Phasellus magna</a></li>
-                  <li><a href="#">Magna phasellus</a></li>
-                  <li><a href="#">Etiam nisl</a></li>
-                  <li><a href="#">Veroeros feugiat</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Veroeros feugiat</a></li>
-            </ul>
-          </li>-->
           <li class="{!! (!Route::is('site.home.advantages')) ?: 'current' !!}"><a href="{!! URL::to('/ventajas') !!}">VENTAJAS</a></li>
           <li class="{!! (!Route::is('site.home.productsAndServices')) ?: 'current' !!}">
             <a href="{!! URL::to('/servicios') !!}">PRODUCTOS Y SERVICIOS</a>
@@ -70,92 +50,70 @@
     </div>
     @yield('content')
     <!-- Footer -->
-    <div id="footer">
-      <!-- Icons 
-      <ul class="icons">
-        <li><a href="#" class="icon fa-twitter"></a></li>
-        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-        <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-        <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-      </ul>
-      -->
-      <div class="wrapper copyright style1">
-        <div class="container">
-          <div class="row">
-            <section class="12u 12u(narrower) 12u(mobilep)">
-              <div class="6u -3u 10u(narrower) -1u(narrower) 8u(narrow) -2u(narrow) 12u(mobilep)">
-                <div class="row 50%">
-                  <div class="icon-list 12u 12u(narrower) 12u(mobilep)">
-                    <div class="row 50%">
-                      <div class="1u -2u -1u(mobilep)">
-                        <a href="#">
-                          <span class="fa fa-facebook-square"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-instagram"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-linkedin"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-pinterest"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-twitter"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-youtube-play"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-envelope-o"></span>
-                        </a>
-                      </div>
-                      <div class="1u">
-                        <a href="#">
-                          <span class="fa fa-phone"></span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    <div id="footer" class="col-xs-12 no-side-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="col-xs-12 no-side-padding text-center">
+              <ul class="icon-list">
+                <li>
+                  <a href="#">
+                    <span class="fa fa-facebook-square"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-instagram"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-linkedin"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-pinterest"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-twitter"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-youtube-play"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-envelope-o"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-phone"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 no-side-padding text-center">
+              <div class="telephones-data">
+                <span>442 2123012</span>
+                <span>/ 442 2123224</span>
+                <span>/ 442 4110848</span>
+                <span>/ 01 800 134 37 37</span>
               </div>
-              <div class="8u -2u 10u(narrow) -1u(narrow) 10u(narrower) -1u(narrower) 10u(mobilep) -1u(mobilep)">
-                <div class="row 50%">
-                  <div class="telephone-list text-center 12u 12u(narrower) 12u(mobilep)">
-                    <p>442 2123012 / 442 2123224 / 442 4110848 / 01 800 134 37 37</p>
-                  </div>
-                <div class="primary-email 12u">
-                  <div class="text-center">
-                    <p><a href="mailto:contacto@gameturfmexico.com">contacto@gameturfmexico.com</a>/ Carlos Septién García #16 Col. Cimatario</p>
-                    <p>Quéretaro , Quéretaro C.P 76030</p>
-                  </div>
-                </div>
+              <div class="address-data">
+                <span><a href="mailto:contacto@gameturfmexico.com">contacto@gameturfmexico.com</a></span>
+                <span>/ Carlos Septién García #16 Col. Cimatario</span><br/>
+                <span>Quéretaro , Quéretaro C.P 76030</span>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Copyright
-    <div class="copyright">
-      <ul class="menu">
-        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-      </ul>
-    </div>
-    -->
     </div>
   </div>
 <!-- [START JavaScript Files] -->
