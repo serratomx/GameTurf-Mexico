@@ -20,7 +20,7 @@
             </article>
           </div>
           <div class="services-container col-xs-12 col-sm-9">
-            <article class="item">
+            <article id="construccion" class="item">
               <header>
                 <h2 class="title"><b>Construcción</b> <br/>y diseño</h2>
               </header>
@@ -29,7 +29,7 @@
                 <p>Contamos con un equipo especializado de arquitectos e ingenieros civiles con una amplia experiencia en el diseño y construcción de espacios deportivos, desde canchas pequeñas, hasta los más grandes complejos deportivos a nivel internacional.</p>
               </div>
             </article>
-            <article class="item">
+            <article id="pasto-sintetico-deportivo" class="item">
               <header>
                 <h2 class="title"><b>Pasto sintético</b> <br/>deportivo</h2>
               </header>
@@ -150,7 +150,7 @@
                 </div>
               </div>
             </article>
-            <article class="item">
+            <article id="pasto-sintetico-residencial" class="item">
               <header>
                 <h2 class="title"><b>Pasto sintético</b> <br/>residencial</h2>
               </header>
@@ -222,7 +222,7 @@
                 </div>
               </div>
             </article>
-            <article class="item">
+            <article id="stickturf" class="item">
               <header>
                 <h2 class="title"><b>Stick Turf</b> <br/>pegamento para pasto sintético</h2>
               </header>
@@ -231,7 +231,7 @@
                 <p>Nuestro pegamento, es fabricado por empresas líderes en el mercado de adhesivos industriales de alta calidad, éstas empresas han confiado en nuestra marca de Pasto Sintético y nos han ayudado a posicionarnos como la mejor opción en todo el país, así como también nos han auxiliado en el desarrollo de nuevas tecnologías para la creación de nuevos productos, más eficientes, seguros y rápidos de utilizar; todo con la única finalidad de brindarle al usuario final una instalación rápida y sin ningún tipo de complicación.</p>
               </div>
             </article>
-            <article class="item">
+            <article id="follaje" class="item">
               <header>
                 <h2 class="title"><b>Follaje</b> <br/>Hechos de PVC, con una durabilidad de 10 años</h2>
               </header>
@@ -240,7 +240,7 @@
                 <p>El follaje sintético embellece cualquier pared, fachada, reja, escenario, etc. Además brinda privacidad al cambiar favorablemente el ambiente, donde disfrutarás al máximo de tu estancia. <br/>Lo manejamos en distintas versiones: <br/>Mosaico: es ideal para aumentar la luminosidad y la atención al detalle. Todos los modelos dan una apariencia frondosa y natural. <br/>Rollos o páneles: ideal para dar privacidad a las mallas ciclónicas o rejas. Es un producto económico y luce muy bien.</p>
               </div>
             </article>
-            <article class="item">
+            <article id="productos-complementarios" class="item">
               <header>
                 <h2 class="title"><b>Productos complementarios</b> <br/>recomendados por Stick Turf</h2>
               </header>

@@ -9,6 +9,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GameTurf México | @yield('title', 'Pasto Sintético')</title>
+  <meta name="p:domain_verify" content="ec11261a4c136d24202fc2b084e5b3ec"/>
   <!--[if lte IE 8]><script src="{!! asset('assets/js/ie/html5shiv.js') !!}"></script><![endif]-->
   <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/css/bootstrap.min.css?v='.time()) !!}">
   <link rel="stylesheet" href="{!! asset('public/assets/css/jquery.loading.css?v='.time()) !!}" />
@@ -34,12 +35,12 @@
           <li class="{!! (!Route::is('site.home.productsAndServices')) ?: 'current' !!}">
             <a href="{!! URL::to('/servicios') !!}">PRODUCTOS Y SERVICIOS</a>
             <ul>
-              <li><a href="#">CONSTRUCCIÓN Y DISEÑO</a></li>
-              <li><a href="#">PASTO SINTÉTICO DEPORTIVO</a></li>
-              <li><a href="#">PASTO SINTÉTICO RESIDENCIAL</a></li>
-              <li><a href="#">STICK TURF</a></li>
-              <li><a href="#">FOLLAJE</a></li>
-              <li><a href="#">PRODUCTOS COMPLEMENTARIOS</a></li>
+              <li><a href="{!! URL::to('/servicios#construccion') !!}">CONSTRUCCIÓN Y DISEÑO</a></li>
+              <li><a href="{!! URL::to('/servicios#pasto-sintetico-deportivo') !!}">PASTO SINTÉTICO DEPORTIVO</a></li>
+              <li><a href="{!! URL::to('/servicios#pasto-sintetico-residencial') !!}">PASTO SINTÉTICO RESIDENCIAL</a></li>
+              <li><a href="{!! URL::to('/servicios#stickturf') !!}">STICK TURF</a></li>
+              <li><a href="{!! URL::to('/servicios#follaje') !!}">FOLLAJE</a></li>
+              <li><a href="{!! URL::to('/servicios#productos-complementarios') !!}">PRODUCTOS COMPLEMENTARIOS</a></li>
             </ul>
           </li>
           <li class="{!! (!Route::is('site.home.gallery')) ?: 'current' !!}"><a href="{!! URL::to('/galeria') !!}">GALERÍA</a></li>
@@ -57,7 +58,7 @@
             <div class="col-xs-12 no-side-padding text-center">
               <ul class="icon-list">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/pastosinteticoqro" target="__blank">
                     <span class="fa fa-facebook-square"></span>
                   </a>
                 </li>
@@ -77,7 +78,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://twitter.com/GameTurf_Qro" target="__blank">
                     <span class="fa fa-twitter"></span>
                   </a>
                 </li>
